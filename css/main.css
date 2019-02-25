@@ -1,0 +1,68 @@
+.nav{
+    background: #0561ab;
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+    line-height: 2em;
+
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.nav {
+    background: #0561ab;
+    padding: 13px 0;
+    color: #fff;
+}
+
+.content {
+    margin-top: 24px;
+}
+
+.title {
+    display: inline-block;
+    max-width: 10%;
+    font-size: 25px;
+}
+
+.login {
+    display: inline-block;
+    max-width: 88%;
+    text-align: right;
+    width: 100%;
+}
+.textbox {
+    padding: 6px 6px;
+}
+.btn {
+    padding: 6px 15px;
+}
+
+.left {
+    display: inline-block;
+    max-width: 45%;
+    width: 45%;
+    vertical-align: top;
+}
+
+.right {
+    max-width: 45%;
+    display: inline-block;
+    margin-left: 53px;
+    width: 45%;
+}
+
+form.registration-form {
+    width: 100% !important;
+}
+
+.registration input.textbox {
+    display: block;
+    margin-bottom: 7px;
+    width: 100%;
+}
