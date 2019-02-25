@@ -6,7 +6,7 @@
             $password = $_POST['password'];
             $firstname = $_POST['firstname'];
             $lastname = $_POST['lastname'];
-            $sql = "INSERT INTO users (first_name, last_name, username, userpassword) VALUES ('$username', '$password', '$firstname', '$lastname')";
+            $sql = "INSERT INTO users (first_name, last_name, username, userpassword) VALUES ('$firstname', '$lastname', '$username', '$password')";
 
             if (mysqli_query($conn, $sql)) {
                 echo json_encode(array(
