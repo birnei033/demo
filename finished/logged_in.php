@@ -7,7 +7,7 @@
             if (isset($_POST['username'])) {
                 $username = $_POST['username'];
                 $password = $_POST['password'];
-                $sql = "SELECT * FROM users WHERE user_name = '$username' AND password = '$password'";
+                $sql = "SELECT * FROM users WHERE username = '$username' AND userpassword = '$password'";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {

@@ -1,5 +1,5 @@
 <?php 
-    
+    include "db_connect.php";
     if (($_POST['username'] != "") && $_POST['password'] != "" ) {
         if ($_POST['password'] === $_POST['confirm_password']) {
             $username = $_POST['username'];
@@ -10,11 +10,11 @@
 
             if (mysqli_query($conn, $sql)) {
                 echo json_encode(array(
-                    'response'=>$lastname
+                    'response'=>'success'
                 ));
             } else {
                 echo json_encode(array(
-                    'response'=>"error"
+                    'response'=>$conn->error
                 ));
                 // echo "Error: " . $sql . "<br>" . $conn->error;
             }

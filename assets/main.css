@@ -1,0 +1,66 @@
+body{
+    font-family: arial;
+    margin: 0;
+
+}
+
+header {
+    background-color: #0982b9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.login-wrapper {
+    display: inline-block;
+    width: 83%;
+    text-align: right;
+    padding: 13px 0;
+    vertical-align: middle;
+}
+.title-wrapper {
+    display: inline-block;
+    width: 15%;
+    color: #fff;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 13px 0;
+}
+
+input.btn {
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+input.textbox {
+    padding: 6px;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.left {
+    margin-right: 51px;
+}
+
+.registration-form input.textbox {
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+.body.container {
+    margin-top: 28px;
+}
+
+.copyright {
+    padding: 18px 6px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    margin-top: 56px;
+}
